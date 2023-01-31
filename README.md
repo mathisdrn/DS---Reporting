@@ -9,7 +9,7 @@ This code can be easily adapted to match the needs of a data science project. Qu
 
 This can be overcome in several ways : 
 - use hardcoded path : it gives you the freedom of your project's structure (not recommended)
-- give path as parameter of your notebooks (used in this notebook)
+- give path as parameter of your notebooks (used in this example)
 - use relative path and set Reporter at the same level in the tree structure as the notebooks you are executing (temp folder can be located anywhere)) :
 
 ***Project folder***
