@@ -25,3 +25,9 @@ This can be overcome in several ways :
     - Reporter
 
         - reporter.ipynb 
+
+**Possible improvements :**
+- Add a Table of content to the export
+- Implement Markdown content with inline variable
+- Delete temp after 
+- Add timestamp to the report and to temp folder
