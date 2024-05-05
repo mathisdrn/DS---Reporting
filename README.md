@@ -1,33 +1,9 @@
-# Reporter - a reporting tool for Data Science Project
+# Reporter
 
-This notebook is part of a set of standardize data science tools I am creating. This intend to automate a data science projects and the reporting of it.
-It handles multiples notebook execution, parametrization and exporting. 
+Automate the execution and reporting of Python data pipeline. 
 
-This code can be easily adapted to match the needs of a data science project. Querying data, Raising error, configure how notebooks are merged, etc.
+### Features :
 
-**Note** : due to limitation to get notebook's directory, notebook executed by Reporter will work from current working directory of reporter.ipynb. This can pose problem when your notebooks input or output data.
-
-This can be overcome in several ways : 
-- use hardcoded path : it gives you the freedom of your project's structure (not recommended)
-- give path as parameter of your notebooks (used in this example)
-- use relative path and set Reporter at the same level in the tree structure as the notebooks you are executing (temp folder can be located anywhere)) :
-
-***Project folder***
-
-    - Prediction model
-
-        - model.ipynb
-
-    - Dashboard
-
-        - dashboard.ipynb
-
-    - Reporter
-
-        - reporter.ipynb 
-
-**Possible improvements :**
-- Add a Table of content to the export
-- Implement Markdown content with inline variable
-- Delete temp after 
-- Add timestamp to the report and to temp folder
+Supports ordered execution of Python and Jupyter Notebooks.
+- parameter with `papermill`
+- reporting with `nbconvert`
